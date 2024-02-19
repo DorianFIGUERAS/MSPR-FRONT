@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "838118477562",
+    "project_id": "alerty-9e838",
+    "storage_bucket": "alerty-9e838.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838118477562:android:65f6ef4f57a4ef651d0343",
+        "android_client_info": {
+          "package_name": "com.example.alerty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9AIPJa3hqia8loKxPj5HdG1NSIINgMZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
