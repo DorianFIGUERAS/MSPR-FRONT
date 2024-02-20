@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_import, use_key_in_widget_constructors, prefer_const_constructors, duplicate_ignore, library_private_types_in_public_api, avoid_print, use_build_context_synchronously, unused_element, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -32,6 +34,7 @@ class MyApp extends StatelessWidget {
             if (user == null) {
               return LoginPage(); // L'utilisateur n'est pas connecté, afficher la page de connexion
             }
+            // ignore: prefer_const_constructors
             return MyHomePage(title: 'Page Principale'); // L'utilisateur est connecté, afficher la page principale
           }
           return Scaffold(
@@ -209,7 +212,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    primary: Color(0xFF31c48d), // Couleur du bouton
+                    backgroundColor: Color(0xFF31c48d), // Couleur du bouton
                   ),
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {

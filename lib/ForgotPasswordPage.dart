@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, use_key_in_widget_constructors, library_private_types_in_public_api, use_build_context_synchronously, prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -56,7 +58,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
               SizedBox(height: 20),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Color(0xFF31c48d),
+                  backgroundColor: Color(0xFF31c48d),
                 ),
                 onPressed: _resetPassword,
                 child: Text('Envoyer l’e-mail de réinitialisation', style: TextStyle(color: Colors.white),),

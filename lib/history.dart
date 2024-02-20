@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print, duplicate_ignore, prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -5,9 +7,11 @@ import 'dart:convert';
 class HistoryPage extends StatefulWidget {
   final String userUID; // Variable pour userID
 
+  // ignore: use_super_parameters
   const HistoryPage({Key? key, required this.userUID}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _HistoryPageState createState() => _HistoryPageState();
 }
 
@@ -17,6 +21,7 @@ class _HistoryPageState extends State<HistoryPage> {
 
 
   Future<void> sendJson() async {
+    // ignore: unused_local_variable
     var url = Uri.parse('http://wildlens.ddns.net:5000/history');
 
     try {
@@ -40,6 +45,7 @@ class _HistoryPageState extends State<HistoryPage> {
           });
         }
       } else {
+        // ignore: avoid_print
         print('Erreur avec la requête: ${response.statusCode}');
       }
     } catch (e) {

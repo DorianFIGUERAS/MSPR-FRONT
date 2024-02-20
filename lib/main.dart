@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import, unused_field, unused_local_variable, non_constant_identifier_names, prefer_typing_uninitialized_variables, prefer_const_constructors, use_super_parameters, prefer_const_constructors_in_immutables, avoid_print, use_build_context_synchronously, sort_child_properties_last
+
 import 'dart:developer';
 import 'dart:io';
 import 'dart:convert';
@@ -447,7 +449,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)), // Carré
                     fixedSize: Size(150, 150), // Taille du bouton carré
-                    primary: Color(0x8031c48d), // Couleur de fond du bouton
+                    backgroundColor: Color(0x8031c48d), // Couleur de fond du bouton
                   ),
                 ),
                 SizedBox(width: 30), // Espacement entre les boutons
@@ -457,7 +459,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)), // Carré
                     fixedSize: Size(150, 150), // Taille du bouton carré
-                    primary: Color(0x8031c48d), // Couleur de fond du bouton
+                    backgroundColor: Color(0x8031c48d), // Couleur de fond du bouton
                   ),
                 ),
               ],
