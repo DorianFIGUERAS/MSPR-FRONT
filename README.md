@@ -24,7 +24,7 @@ Il faut ensuite mettre les PATHS de Dart et Flutter dans Android Studio :
 **Récuperer le repository et le cloner dans Android Studio.**
 
 ## Composition du Repository (Scripts principaux)
-**Scripts** :
+**Scripts (Project>lib)** :
 - **main.dart**
 - **history.dart**
 - **authentification.dart**
