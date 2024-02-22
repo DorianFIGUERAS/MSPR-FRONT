@@ -23,7 +23,7 @@ Il faut ensuite mettre les PATHS de Dart et Flutter dans Android Studio :
 
 **Récuperer le repository et le cloner dans Android Studio.**
 
-## Nous allons nous intéresser ici aux Scripts principaux de l'application qui représentent les pages
+## Composition du Repository (Scripts principaux)
 **Scripts** :
 - **main.dart**
 - **history.dart**
