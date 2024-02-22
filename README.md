@@ -53,7 +53,7 @@ Puis sélectionner l'émulateur :
 
 *  **ForgotPasswordPage.dart** : Dans ce script, la classe `ForgotPasswordPage` contient la logique de l'interface utilisateur pour la réinitialisation du mot de passe. On utilise des instances Firebase comme `_auth`, `_formKey`, `_emailController`pour permettre la réinitisalisation du mot de passe de l'utilisateur dans la gestion des utilisateurs Firebase. Lorsque l'utilisateur appuie sur le bouton d'envoi, la méthode `_resetPassword`est déclenchée et utilise `_auth.sendPasswordResetEmail`si les informations saisies sont valides et en informe l'utilisateur via un `SnackBar`
 
-*  **register.dart** : Dans ce script, la classe `_RegisterPageState`contient la logique et l'interface utilisateur pour la page d'inscription. 
+*  **register.dart** : Dans ce script, la classe `_RegisterPageState`contient la logique et l'interface utilisateur pour la page d'inscription. On utilise les mêmes instances Firebase que précédemment avec `_passwordController`en plus. Lorsque les informations sont envoyées par l'utilisateur, cela décenche la méthode `_register`afin de valider les informations et si la validation est un succès alors elle créer un nouvel utilisateur avec l'e-mail et le mot de passe saisi par l'utilisateur via `createUserWithEmailAndPassword` de Firebase Auth. 
 
 
 
