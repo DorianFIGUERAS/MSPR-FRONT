@@ -21,11 +21,7 @@ Il faut ensuite mettre les PATHS de Dart et Flutter dans Android Studio :
 ![image](https://github.com/DorianFIGUERAS/MSPR-FRONT/assets/127091847/3b85e584-8e51-4fe8-8507-7568c16f2b11)
 ![image](https://github.com/DorianFIGUERAS/MSPR-FRONT/assets/127091847/6c677a08-eb17-42c3-aa5f-554a3580dffc)
 
-**Récuperer le repository et le cloner dans Android Studio.**
 
-## Préparation pour lancer l'application sur un émulateur 
-Il faut télécharger un SDK Android : 
-![image](https://github.com/DorianFIGUERAS/MSPR-FRONT/assets/127091847/6cf5c154-266c-45b3-b099-120ebd0f9ac4)
 
 ## Composition du Repository (Scripts principaux)
 **Scripts (Project>lib)** :
@@ -35,7 +31,12 @@ Il faut télécharger un SDK Android :
 - **ForgotPasswordPage.dart** : Ce script permet de faire une demande de réinitialisation de mot de passe auprès de la BDD Firebase. 
 - **register.dart** : Ce script permet de s'inscrire sur la BDD pour une première connexion à l'application. 
 
+## Instructions
+**Récuperer le repository et le cloner dans Android Studio.**
 
+**Préparation pour lancer l'application sur un émulateur**
+Il faut télécharger un SDK Android : 
+![image](https://github.com/DorianFIGUERAS/MSPR-FRONT/assets/127091847/6cf5c154-266c-45b3-b099-120ebd0f9ac4)
 
 
 
