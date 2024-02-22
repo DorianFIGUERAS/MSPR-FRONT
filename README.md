@@ -23,6 +23,10 @@ Il faut ensuite mettre les PATHS de Dart et Flutter dans Android Studio :
 
 **Récuperer le repository et le cloner dans Android Studio.**
 
+## Préparation pour lancer l'application sur un émulateur 
+Il faut télécharger un SDK Android : 
+![image](https://github.com/DorianFIGUERAS/MSPR-FRONT/assets/127091847/6cf5c154-266c-45b3-b099-120ebd0f9ac4)
+
 ## Composition du Repository (Scripts principaux)
 **Scripts (Project>lib)** :
 - **main.dart**
