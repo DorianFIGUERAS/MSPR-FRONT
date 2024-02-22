@@ -29,11 +29,13 @@ Il faut télécharger un SDK Android :
 
 ## Composition du Repository (Scripts principaux)
 **Scripts (Project>lib)** :
-- **main.dart**
-- **history.dart**
-- **authentification.dart**
-- **ForgotPasswordPage.dart**
-- **register.dart**
+- **main.dart** : Ce script correspond à la page principale de l'application. Il permet l'articulation entre les différentes pages. 
+- **history.dart** : Ce script permet de récupérer et d'afficher l'historique des images uploadées et des prédictions retournées à l'utilisateur.
+- **authentification.dart** : Ce script permet de s'authentifier pour accéder à l'application. 
+- **ForgotPasswordPage.dart** : Ce script permet de faire une demande de réinitialisation de mot de passe auprès de la BDD Firebase. 
+- **register.dart** : Ce script permet de s'inscrire sur la BDD pour une première connexion à l'application. 
+
+
 
 
 
