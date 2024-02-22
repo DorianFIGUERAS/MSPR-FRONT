@@ -5,8 +5,15 @@
 Cette documentation a pour but d'être simple et d'expliquer l'articulation de la partie Front-End de l'application Wildlens sur sa machine. Elle comprend l'installation du projet et des différents scripts flutter (en **Dart**).
 
 ## Requirements
-Le projet nécéssite l'installation de **Fluter**, **Dart**, et **Android Studio**. 
+Le projet nécéssite l'installation de **Fluter**, **Dart**, et **Android Studio**.
+Installation de Flutter : 
 *[Pour windows](https://docs.flutter.dev/get-started/install/windows/desktop)
 *[Pour Linux](https://docs.flutter.dev/get-started/install/linux)
 *[Pour mac](https://docs.flutter.dev/get-started/install/macos/desktop)
+
+Installation de Dart : 
+*[Pour tous les OS](https://dart.dev/get-dart)
+
+Installation d'Android Studio : 
+*[Android Studio](https://developer.android.com/studio/install)
 
