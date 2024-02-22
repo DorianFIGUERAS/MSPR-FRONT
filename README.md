@@ -51,7 +51,7 @@ Puis sélectionner l'émulateur :
 
 *  **authentification.dart** : Dans ce script, on commence par initialiser la connexion à la base de données Firebase. On utilise ensuite `StreamBuilder`afin d'écouter les changements d'authentification. Si l'utilisateur est connecté alors on redirige vers le script **main.dart** et donc vers la page `MyHomePage`. Les informations de connexion de l'utilisateur sont ensuite conservées afin que l'utilisateur reste connecté.
 
-*  **ForgotPasswordPage.dart** : Dans ce script, la classe `ForgotPasswordPage` contient la logique de l'interface utilisateur pour la réinitialisation du mot de passe. On utilise des instances Firebase comme `_auth`, `_formKey`, `_emailController`pour permettre la réinitisalisation du mot de passe de l'utilisateur dans la gestion des utilisateurs Firebase. 
+*  **ForgotPasswordPage.dart** : Dans ce script, la classe `ForgotPasswordPage` contient la logique de l'interface utilisateur pour la réinitialisation du mot de passe. On utilise des instances Firebase comme `_auth`, `_formKey`, `_emailController`pour permettre la réinitisalisation du mot de passe de l'utilisateur dans la gestion des utilisateurs Firebase. Lorsque l'utilisateur appuie sur le bouton d'envoi, la méthode `_resetPassword`est déclenchée et utilise `_auth.sendPasswordResetEmail`si les informations saisies sont valides et en informe l'utilisateur via un `SnackBar`. 
 
 
 
