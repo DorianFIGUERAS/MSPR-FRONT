@@ -49,7 +49,7 @@ Puis sélectionner l'émulateur :
 
 *  **history.dart** : Dans ce script, nous récupérons l'`UID`de l'utilisateur afin de l'envoyer au serveur pour permettre le requêtage de la BDD Firebase. Lorsque le serveur a requêté la BDD avec le paramètre `UID`, le serveur retourne à l'application un fichier json contenant les urls de toutes les photos uploadées par l'utilisateur ainsi que les prédictions associées. On utilise ensuite une fonction pour décripter le fichier json et afficher les images via la fonction `Image.network`.
 
-*  **authentification.dart** : Dans ce script, on commence par initialiser la connexion à la base de données Firebase. On utilise ensuite `StreamBuilder`afin d'écouter les changements d'authentification. Si l'utilisateur est connecté alors on redirige vers le script **main.dart** et donc vers la page `MyHomePage`. 
+*  **authentification.dart** : Dans ce script, on commence par initialiser la connexion à la base de données Firebase. On utilise ensuite `StreamBuilder`afin d'écouter les changements d'authentification. Si l'utilisateur est connecté alors on redirige vers le script **main.dart** et donc vers la page `MyHomePage`. Les informations de connexion de l'utilisateur sont ensuite conservées afin que l'utilisateur reste connecté. 
 
 
 
