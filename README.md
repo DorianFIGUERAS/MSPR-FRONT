@@ -38,6 +38,15 @@ Il faut ensuite mettre les PATHS de Dart et Flutter dans Android Studio :
 Il faut télécharger un SDK Android : 
 ![image](https://github.com/DorianFIGUERAS/MSPR-FRONT/assets/127091847/6cf5c154-266c-45b3-b099-120ebd0f9ac4)
 
+Il faut ensuite démarrer l'émulateur :
+![image](https://github.com/DorianFIGUERAS/MSPR-FRONT/assets/127091847/3738aa8c-90bf-4e1e-83ab-6880e44fbd1c)
+
+Puis sélectionner l'émulateur : 
+![image](https://github.com/DorianFIGUERAS/MSPR-FRONT/assets/127091847/6b3947ce-30c1-483b-be13-840d51d9acae)
+
+
+
+
 
 
 
