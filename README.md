@@ -6,3 +6,7 @@ Cette documentation a pour but d'être simple et d'expliquer l'articulation de l
 
 ## Requirements
 Le projet nécéssite l'installation de **Fluter**, **Dart**, et **Android Studio**. 
+*[Pour windows](https://docs.flutter.dev/get-started/install/windows/desktop)
+*[Pour Linux](https://docs.flutter.dev/get-started/install/linux)
+*[Pour mac](https://docs.flutter.dev/get-started/install/macos/desktop)
+
